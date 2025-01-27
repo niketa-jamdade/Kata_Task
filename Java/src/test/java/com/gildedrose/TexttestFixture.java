@@ -22,6 +22,7 @@ public class TexttestFixture {
             new Item("Backstage passes to a TAFKAL80ETC concert", 5, 49),
             // this conjured item does not work properly yet
             new Item("Conjured Mana Cake", 3, 6) };
+            new Item("",0,0);
 
         GildedRose app = new GildedRose(items,updaters);
 
