@@ -14,7 +14,7 @@ class GildedRoseTest {
         Map<String, ItemUpdater> updaters =GildedRose.createDefaultUpdaters();
         GildedRose app = new GildedRose(items,updaters);
         app.updateQuality();
-        assertEquals("fixme", app.items[0].name);
+        assertEquals("foo", app.items[0].name);
     }
 
 }

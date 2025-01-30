@@ -16,10 +16,9 @@ public class BackstagePassUpdater implements ItemUpdater {
                 .filter(quality -> quality <= 50) // Ensure quality does not exceed 50
                 .max() // Use the highest applicable quality value
                 .orElse(item.quality);
-
-            // Decrease sellIn
-            item.sellIn--;
         }
+        // Decrease sellIn
+        item.sellIn--;
         return item;
     }
 }
